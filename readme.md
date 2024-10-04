@@ -13,7 +13,7 @@ pip install -r requirements.txt
 This command will install all the required dependencies from the requirements.txt file.
 
 Available Commands
-1. Initialize Database
+# 1. Initialize Database
 Command:
 ```bash
 flask init
@@ -22,7 +22,7 @@ Description: Initializes the database. Run this command to set up your database 
 Expected Output: "database initialized" after successful initialization.
 
 
-2. Get Competitions
+# 2. Get Competitions
 Command:
 
 ```bash
@@ -32,7 +32,7 @@ Description: Fetches and displays a list of all competitions currently stored in
 
 Expected Output:Prints the list of competitions, or "No Competitions" if there are none.
 
-3. Create a Competition
+# 3. Create a Competition
 Command:
 ```bash
 flask create-competition <competition_name> <date>
@@ -47,7 +47,7 @@ Expected Output:
 "Competition already exists" if the competition already exists.
 Error message if the date is invalid.
 
-4. Add a Result to a Competition
+# 4. Add a Result to a Competition
 Command:
 
 ```bash
@@ -63,7 +63,7 @@ Expected Output:
 "Result added successfully" on success.
 "Competition with id X does not exist" if the competition ID is invalid.
 
-5. Add Results from a CSV File
+# 5. Add Results from a CSV File
 Command:
 ```bash
 flask Add_A_ResultFromFile_To_Competition <competition_id> <file_path>
@@ -77,7 +77,7 @@ Expected Output:
 "Results added successfully" on success.
 "Competition with id X does not exist" if the competition ID is invalid.
 
-6. Get Competition Results
+# 6. Get Competition Results
 Command:
 
 ```bash
@@ -91,16 +91,16 @@ Output:
 Prints the list of results for the competition.
 "Competition with id X does not exist" if the competition ID is invalid.
 How to Run the Program
-Install dependencies using the command:
+# Install dependencies using the command:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Initialize the database:
+```
+# Initialize the database:
 
-bash
-Copy code
+```bash
 flask init
+```
 Use any of the commands described above to manage competitions and results.
 
 Notes
